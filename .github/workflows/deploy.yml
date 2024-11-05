@@ -3,7 +3,7 @@ name: Build and Deploy Laravel-React App
 on:
   push:
     branches:
-      - master  # Branch yang akan memicu workflow ini
+      - gh-pages  # Branch yang akan memicu workflow ini
 
 jobs:
   build:
