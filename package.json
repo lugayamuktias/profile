@@ -5,7 +5,8 @@
     "scripts": {
         "build": "vite build",
         "dev": "vite",
-        "predeploy":"npm run build" 
+        "predeploy":"npm run build",
+        "deploy":"gh-pages -d build"
     },
     "devDependencies": {
         "@vitejs/plugin-react": "^4.3.3",
