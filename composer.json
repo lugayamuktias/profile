@@ -64,6 +64,10 @@
         "allow-plugins": {
             "pestphp/pest-plugin": true,
             "php-http/discovery": true
+        },
+        "platform": {
+            "php": "8.3.13",
+            "ext-openssl": "1.0.0"
         }
     },
     "minimum-stability": "stable",
