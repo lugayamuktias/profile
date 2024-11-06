@@ -3,11 +3,9 @@
     "private": true,
     "type": "module",
     "scripts": {
-        "build": "vite build",
-        "dev": "vite",
-        "predeploy":"npm run build",
-        "deploy": "gh-pages -b master -d build"
-    },
+    "build": "vite build",
+    "dev": "vite"
+    } , 
     "devDependencies": {
         "@vitejs/plugin-react": "^4.3.3",
         "autoprefixer": "^10.4.20",
