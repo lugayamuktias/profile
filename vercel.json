@@ -10,8 +10,8 @@
   }],
   "env": {
       "APP_ENV": "production",
-      "APP_DEBUG": "false",
-      "APP_URL": "https://profile-flax-one.vercel.app/",
+      "APP_DEBUG": "true",
+      "APP_URL": "https://profile-lugaya-mukti-arwasaputras-projects.vercel.app/",
       "APP_KEY": "base64:x2n7aevNYS0WP9eTH8ocqZiASXXgKpJEMAhExy0tH98=",
       "APP_CONFIG_CACHE": "/tmp/config.php",
       "APP_EVENTS_CACHE": "/tmp/events.php",
