@@ -17,7 +17,6 @@ export default defineConfig({
     },
     build: {
         outDir: 'public/build', // Output build di direktori 'public/build'
-        // outDir: 'dist',
         manifest: true,
         rollupOptions: {
         input: 'resources/js/app.jsx'  // Sesuaikan dengan file utama Anda
