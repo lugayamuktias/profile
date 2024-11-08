@@ -11,7 +11,7 @@
   "env": {
       "APP_ENV": "production",
       "APP_DEBUG": "false",
-      "APP_URL": "http://127.0.0.1:8000",
+      "APP_URL": "https://profile-flax-one.vercel.app/",
       "APP_KEY": "base64:x2n7aevNYS0WP9eTH8ocqZiASXXgKpJEMAhExy0tH98=",
       "APP_CONFIG_CACHE": "/tmp/config.php",
       "APP_EVENTS_CACHE": "/tmp/events.php",
