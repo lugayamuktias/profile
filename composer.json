@@ -71,5 +71,8 @@
         }
     },
     "minimum-stability": "stable",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "vercel": [
+        "npm ci && npm run build"
+      ]
 }
