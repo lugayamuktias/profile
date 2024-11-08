@@ -16,10 +16,11 @@ export default defineConfig({
         },
     },
     build: {
-        outDir: 'public/build', // Output build di direktori 'public/build'
-        manifest: true,
+        outDir: 'public/build',      // Output di direktori 'public/build'
+        manifest: true,              // Menyimpan manifest.json di 'public/build'
+        emptyOutDir: true,           // Menghapus isi 'public/build' sebelum build
         rollupOptions: {
-        input: 'resources/js/app.jsx'  // Sesuaikan dengan file utama Anda
+            input: 'resources/js/app.jsx'  // File utama proyek
         }
-      },
+    },
 });
